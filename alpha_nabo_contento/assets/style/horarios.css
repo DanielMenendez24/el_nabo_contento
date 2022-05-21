@@ -1,0 +1,72 @@
+/* Horarios */
+
+.horarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    height: auto;
+}
+
+.infoHora {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+    margin: 10px 0px 10px -10px;
+    height: 400px;
+    width: 440px;
+    background: #111;
+    border-radius: 10px;
+}
+
+.infoHora h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 34px;
+    font-weight: lighter;
+    color: rgb(0, 157, 154);
+    margin: 40px 0px 0px;
+}
+
+.infoHora p {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ccc;
+    margin: 30px 40px 10px 40px;
+}
+
+.horario {
+    display: flex;
+    height: 500px;
+    width: 550px;
+    margin: 30px -60px 30px 0px;
+    background-size: auto;
+}
+
+.horario section {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.horario section img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: .8s;
+}
+
+@supports(object-fit: cover) {
+    .horario section img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.img:hover img {
+    transform: scale(1.03);
+}

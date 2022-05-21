@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Nabo Contento | Inicio</title>
+    <link rel="shortcut icon" href="/alpha_nabo_contento/assets/img/logo/logo.svg">
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" type="text/css" href="assets/style/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/form.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/intro.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/prod.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/who.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/loading-bar.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/horarios.css">
+
+    <!-- Tipography -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+
+    <script type="text/javascript" src="assets/js/loading-bar.js"></script>
+    <script type="text/javascript" src="/alpha_nabo_contento/assets/js/verify-mail.js"></script>
+
+    <!-- Fade In/Out Intro -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".intro, .ldBar").fadeOut(1500);
+            }, 3000);
+
+            setTimeout(function() {
+                $("body").fadeIn(1500);
+            }, 6000);
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Intro -->
+
+    <section class="intro">
+
+        <img src="assets/img/logo/logo.svg" alt="El Nabo Contento" title="El Nabo Contento">
+        <h1>Bienvenidos a El Nabo Contento</h1>
+        <p>Estamos haciendo cosas ricas para ti.</p>
+
+        <!-- Loader -->
+
+        <section class="loader">
+
+            <div class="ldBar label-center" id="ldBar" data-preset="circle" data-duration="2.5"></div>
+
+            <script>
+                /* construct manually */
+                var bar1 = new ldBar("#ldBar");
+                /* ldBar stored in the element */
+                var bar2 = document.getElementById('ldBar').ldBar;
+                bar1.set(100);
+            </script>
+
+        </section>
+
+    </section>
+
+    <center>
+
+        <header>
+
+            <!-- Logo y nonmbre -->
+
+            <section class="logo">
+
+                <img src="assets/img/logo/logo.svg" alt="">
+
+                <h1>El nabo contento online</h1>
+
+            </section>
+
+        </header>
+
+        <!-- Barra del menu -->
+
+        <section class="btn">
+
+            <!-- Shopping cart -->
+
+            <img src="assets/img/media/svg/store/shopping-basket-solid.svg" alt="Shopping Cart" title="Ver Carrito" class="basket">
+
+            <!-- Botones del menu -->
+
+            <div class="list">
+
+                <a href="#">Inicio</a>
+                <a href="/alpha_nabo_contento/recipes.html" class="yellow">Recetario</a>
+                <a href="/alpha_nabo_contento/store.html">Comprar</a>
+                <a href="#" class="yellow">Elaboraciones propias</a>
+                <a href="#">Proximos eventos</a>
+
+            </div>
+
+            <!-- Redes Sociales -->
+
+            <div class="media">
+
+                <a href="https://www.facebook.com/El-nabo-contento-1831902630398336">
+                    <img src="assets/img/media/svg/001-facebook.svg" alt="">
+                </a>
+
+                <a href="https://www.instagram.com/elnabocontento/?igshid=14qlivyrdl3oy">
+                    <img src="assets/img/media/svg/011-instagram.svg" alt="">
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCZ_2OnZmtz641jsjNU2mV2w">
+                    <img src="assets/img/media/svg/008-youtube.svg" alt="">
+                </a>
+
+            </div>
+
+        </section>
+
+        <br>
+
+        <main>
+
+            <!-- Quienes somos -->
+
+            <section class="who" id="who">
+
+                <!-- Informacion sobre el local -->
+
+                <section class="infoWho">
+
+                    <h1>¿Quienes somos?</h1>
+
+                    <p>Abrimos nuestras puerta en el 2016. Todo nace de la búsqueda de productos frescos y de calidad en la zona. Entendimos que somos lo que comemos y es por eso que día a día, elegimos y te ofrecemos productos sanos, frescos y con materia
+                        prima de calidad, para que mimes a tu cuerpo, te alimentes mejor y no pierdas tiempo buscando o pagando de mas.</p>
+
+                </section>
+
+                <section class="img">
+
+                    <section>
+
+                        <img src="assets/img/pictures/owners/Nosotros.png" alt="Owners" title="Owners">
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <!-- Productos -->
+
+            <section id="prod">
+
+                <div id="productHead">
+
+                    <h1>Nuestros productos preparados para ti</h1>
+
+                    <h3>Listos para tu mesa (si no te los comes en el camino)</h3>
+
+                </div>
+
+                <section class="productos">
+
+                    <section class="panaderia">
+
+                        <a href="#prod">
+
+                            <div class="imgP">
+
+                                <img src="assets/img/pictures/bakery/panaderia.jpeg" alt="Panaderia" title="Panaderia">
+
+                            </div>
+
+                            <div class="imP">
+
+                                <h1>Panaderia</h1>
+
+                            </div>
+
+                        </a>
+
+                    </section>
+
+                    <section class="comidas">
+
+                        <a href="#prod">
+
+                            <div class="imgP">
+
+                                <img src="assets/img/pictures/bakery/comidasHechas.jpeg" alt="Comidas Dulces" title="Comidas Dulces">
+
+                            </div>
+
+                            <div class="imgP">
+
+                                <h1>Comidas Hechas</h1>
+
+                            </div>
+
+                        </a>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <!-- Horario -->
+
+            <section class="horarios" id="hor">
+
+                <section class="horario">
+
+                    <section>
+
+                        <img src="assets/img/others/horario3.webp" alt="Horario" title="Horario">
+
+                    </section>
+
+                </section>
+
+                <!-- Informacion sobre los horarios -->
+
+                <section class="infoHora">
+
+                    <h1>Nuestro horario</h1>
+
+                    <p>¡Te estamos esperando!</p>
+                    <p>Lunes a Sabados: 8am a 9pm.</p>
+                    <p>Domingos: 10am a 2pm.</p>
+                    <p><b>ATENCION: </b>Debido a la pandemia los horarios pueden ser modificados, consulte.</p>
+
+                </section>
+
+            </section>
+
+            <!-- Contacto y mapa -->
+
+            <section class="contacto" id="contact">
+
+                <!-- Informacion sobre el contacto -->
+
+                <section class="infoContacto">
+
+                    <h1>Contacto</h1>
+
+                    <p>Camino Carrasco 4487</p>
+                    <p><u>elnabocontento@gmail.com</u></p>
+                    <p><u>097419898</u></p>
+
+                </section>
+
+                <section class="map">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3583251947675!2d-56.12382709691256!3d-34.872347363480664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ce455c4223%3A0x43c51a474105c543!2sCno.%20Carrasco%204487%2C%2012100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1624769573305!5m2!1ses-419!2suy"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </section>
+
+            </section>
+
+            <!-- Formulario suscripcion -->
+
+            <section class="form">
+
+                <h3>Formulario de suscripcion</h3><br>
+
+                <form>
+
+                    <input type="email" name="emailForm" id="emailForm" placeholder="Dirección de correo electronico"><br><br>
+
+                    <button class="btnForm" type="button" action="validaVacio()">Enviar</button>
+
+                    <br><br>
+
+                    <section class="net">
+
+                        <div class="wpp">
+
+                            <a href="#asd">
+
+                                <img src="assets/img/media/svg/003-whatsapp.svg" alt="Whatsapp" title="Whatsapp">
+                                <h5>097419898</h5>
+
+                            </a>
+
+                        </div>
+
+                        <div class="social">
+
+                            <a href="https://www.facebook.com/El-nabo-contento-1831902630398336" target="_blank">
+                                <img src="assets/img/media/svg/001-facebook.svg" title="Facebook" alt="Facebook">
+                            </a>
+
+                            <a href="https://www.instagram.com/elnabocontento/?igshid=14qlivyrdl3oy" target="_blank">
+                                <img src="assets/img/media/svg/011-instagram.svg" title="Instagram" alt="Instagram">
+                            </a>
+
+                            <a href="https://www.youtube.com/channel/UCZ_2OnZmtz641jsjNU2mV2w" target="_blank">
+                                <img src="assets/img/media/svg/008-youtube.svg" title="YouTube" alt="YouTube">
+                            </a>
+
+                        </div>
+
+                    </section>
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <h5>®2021 HashtAG.</h5>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

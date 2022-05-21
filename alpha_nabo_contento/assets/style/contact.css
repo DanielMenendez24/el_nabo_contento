@@ -1,0 +1,55 @@
+/* Contacto */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    height: auto;
+    background-color: rgba(159, 215, 142, 1);
+}
+
+.infoContacto {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    height: 450px;
+    width: 430px;
+    margin: 10px 10px 10px 200px;
+}
+
+.infoContacto h1 {
+    text-align: left;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(0, 33, 32);
+    margin: 40px 0px 0px;
+}
+
+.infoContacto p {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: rgb(0, 33, 32);
+    margin: 50px 0px 10px 0px;
+}
+
+
+/* Mapa */
+
+.contacto .map {
+    display: flex;
+    height: 400px;
+    width: 55%;
+    background-size: auto;
+    margin: 20px 30px 20px 0px;
+}
+
+.contacto .map iframe {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+}

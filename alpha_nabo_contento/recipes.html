@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Nabo Contento | Recetario</title>
+    <link rel="shortcut icon" href="/alpha_nabo_contento/assets/img/logo/logo.svg">
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" type="text/css" href="assets/style/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/form.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/intro.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/prod.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/recipes.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/loading-bar.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/horarios.css">
+
+    <!-- Tipography -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+
+    <script type="text/javascript" src="assets/js/loading-bar.js"></script>
+    <script type="text/javascript" src="/alpha_nabo_contento/assets/js/verify-mail.js"></script>
+
+    <!-- Fade In/Out Intro -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".intro, .ldBar").fadeOut(1500);
+            }, 3000);
+
+            setTimeout(function() {
+                $("body").fadeIn(1500);
+            }, 6000);
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Intro -->
+
+    <section class="intro">
+
+        <h1>Recetario</h1>
+
+        <!-- Loader -->
+
+        <section class="loader">
+
+            <div class="ldBar label-center" id="ldBar" data-preset="circle" data-duration="1"></div>
+
+            <script>
+                /* construct manually */
+                var bar1 = new ldBar("#ldBar");
+                /* ldBar stored in the element */
+                var bar2 = document.getElementById('ldBar').ldBar;
+                bar1.set(100);
+            </script>
+
+        </section>
+
+    </section>
+
+    <center>
+
+        <header>
+
+            <!-- Logo y nonmbre -->
+
+            <section class="logo">
+
+                <img src="assets/img/logo/logo.svg" alt="">
+
+                <h1>El nabo contento online</h1>
+
+            </section>
+
+        </header>
+
+        <!-- Barra del menu -->
+
+        <section class="btn">
+
+            <!-- Shopping cart -->
+
+            <img src="assets/img/media/svg/store/shopping-basket-solid.svg" alt="Shopping Cart" title="Ver Carrito" class="basket">
+
+            <!-- Botones del menu -->
+
+            <div class="list">
+
+                <a href="index.html">Inicio</a>
+                <a href="#" class="yellow">Recetario</a>
+                <a href="/alpha_nabo_contento/store.html">Comprar</a>
+                <a href="#" class="yellow">Elaboraciones propias</a>
+                <a href="#">Proximos eventos</a>
+
+            </div>
+
+            <!-- Redes Sociales -->
+
+            <div class="media">
+
+                <a href="https://www.facebook.com/El-nabo-contento-1831902630398336">
+                    <img src="assets/img/media/svg/001-facebook.svg" alt="">
+                </a>
+
+                <a href="https://www.instagram.com/elnabocontento/?igshid=14qlivyrdl3oy">
+                    <img src="assets/img/media/svg/011-instagram.svg" alt="">
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCZ_2OnZmtz641jsjNU2mV2w">
+                    <img src="assets/img/media/svg/008-youtube.svg" alt="">
+                </a>
+
+            </div>
+
+        </section>
+
+        <br>
+
+        <main>
+            <section class="intro-recipes">
+                <div class="izq">
+                    <img src="assets/img/Others/izq.jpg" alt="" class="izqImg">
+                </div>
+                <div class="pres">
+                    <h1>Recetas y mas.</h1>
+                    <h2>El amor por lo que hacemos</h2>
+                    <p>No solo queremos que comas sano y bien, queremos ayudarte a cocinar, a mejorar ese plato, a usar un producto nuevo.</p>
+                    <p>Por eso vamos a empezar a armar nuestro recetario.</p>
+                    <p> Las siguientes recetas son todas del nuestro, animate y mándanos recetas tuyas, porque comer sano y rico, se comparte.</p>
+                    <button type="correo" class="enviar_correo" onclick="parent.location='mailto:elnabocontento@gmail.com'"><em>Envianos un mail con tu receta aqui</em></button>
+                </div>
+                <div class="der">
+                    <img src="assets/img/Others/der.jpg" alt="" class="der">
+                </div>
+            </section>
+
+            <section class="main-content">
+                <div>VIDEO 1</div>
+                <div>VIDEO 2</div>
+                <div>VIDEO 3</div>
+                <div>VIDEO 4</div>
+                <div>VIDEO X</div>
+            </section>
+
+
+            <!-- Formulario suscripcion -->
+
+            <section class="form">
+
+                <h3>Formulario de suscripcion</h3><br>
+
+                <form>
+
+                    <input type="email" name="emailForm" id="emailForm" placeholder="Dirección de correo electronico"><br><br>
+
+                    <button class="btnForm" type="button" action="validaVacio()">Enviar</button>
+
+                    <br><br>
+
+                    <section class="net">
+
+                        <div class="wpp">
+
+                            <a href="#asd">
+
+                                <img src="assets/img/media/svg/003-whatsapp.svg" alt="Whatsapp" title="Whatsapp">
+                                <h5>097419898</h5>
+
+                            </a>
+
+                        </div>
+
+                        <div class="social">
+
+                            <a href="https://www.facebook.com/El-nabo-contento-1831902630398336" target="_blank">
+                                <img src="assets/img/media/svg/001-facebook.svg" title="Facebook" alt="Facebook">
+                            </a>
+
+                            <a href="https://www.instagram.com/elnabocontento/?igshid=14qlivyrdl3oy" target="_blank">
+                                <img src="assets/img/media/svg/011-instagram.svg" title="Instagram" alt="Instagram">
+                            </a>
+
+                            <a href="https://www.youtube.com/channel/UCZ_2OnZmtz641jsjNU2mV2w" target="_blank">
+                                <img src="assets/img/media/svg/008-youtube.svg" title="YouTube" alt="YouTube">
+                            </a>
+
+                        </div>
+
+                    </section>
+
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+
+            <h5>®2021 HashtAG.</h5>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

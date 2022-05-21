@@ -1,0 +1,9 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 20px auto;
+    justify-content: space-between;
+    width: 30%;
+    height: 200px;
+    border: 1px solid #333;
+}

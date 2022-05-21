@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Nabo Contento | Tienda</title>
+    <link rel="shortcut icon" href="/alpha_nabo_contento/assets/img/logo/logo.svg">
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/header.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/menu.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/style.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/footer.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/filter.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/store.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/intro.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/loading-bar.css">
+    <link rel="stylesheet" href="/alpha_nabo_contento/assets/style/stock.css">
+
+    <!-- Tipography -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&
+    display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+
+    <!-- Loading screen -->
+    <script src="/alpha_nabo_contento/assets/js/loading-bar.js"></script>
+
+    <!-- Fade In/Out Intro -->
+
+    <script src="/alpha_nabo_contento/assets/js/loading-screen.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Intro -->
+
+    <section class="intro">
+
+        <h1>Tienda</h1>
+
+        <!-- Loader -->
+
+        <section class="loader">
+
+            <div class="ldBar label-center" id="ldBar" data-preset="circle" data-duration="1"></div>
+
+            <script>
+                /* construct manually */
+                var bar1 = new ldBar("#ldBar");
+
+                /* ldBar stored in the element */
+                var bar2 = document.getElementById('ldBar').ldBar;
+                bar1.set(100);
+            </script>
+
+        </section>
+
+    </section>
+
+    <center>
+
+        <header>
+
+            <!-- Logo y nonmbre -->
+
+            <section class="logo">
+
+                <img src="/alpha_nabo_contento/assets/img/logo/logo.svg" alt="El Nabo Contento" title="El Nabo Contento">
+
+                <h1>El nabo contento online</h1>
+
+            </section>
+
+        </header>
+
+        <!-- Barra del menu -->
+
+        <section class="btn">
+
+            <!-- Shopping cart -->
+
+            <img src="/alpha_nabo_contento/assets/img/media/svg/store/shopping-basket-solid.svg" alt="Shopping Cart" title="Ver Carrito" class="basket">
+
+            <!-- Botones del menu -->
+
+            <div class="list">
+
+                <a href="/alpha_nabo_contento/index.html">Inicio</a>
+                <a href="/alpha_nabo_contento/recipes.html" class="yellow">Recetario</a>
+                <a href="#">Comprar</a>
+                <a href="" class="yellow">Elaboraciones propias</a>
+                <a href="#">Proximos eventos</a>
+
+            </div>
+
+            <!-- Redes Sociales -->
+
+            <div class="media">
+
+                <a href="https://www.facebook.com/El-nabo-contento-1831902630398336">
+                    <img src="/alpha_nabo_contento/assets/img/media/svg/001-facebook.svg" alt="Facebook" title="Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/elnabocontento/?igshid=14qlivyrdl3oy">
+                    <img src="/alpha_nabo_contento/assets/img/media/svg/011-instagram.svg" alt="Instagram" title="Instagram">
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCZ_2OnZmtz641jsjNU2mV2w">
+                    <img src="/alpha_nabo_contento/assets/img/media/svg/008-youtube.svg" alt="YouTube" title="YouTube">
+                </a>
+
+            </div>
+
+        </section>
+
+        <br>
+
+        <!-- Filtros -->
+
+        <section class="filter">
+
+            <h1>Filtrar por</h1>
+
+            <br>
+
+            <div class="cat">
+
+                <label for="Todo">
+                    <input type="radio" name="filter" class="inputFilter" id="Todo" checked>
+                    <span class="checkmark"></span>
+                    Todo</label>
+
+                <label for="Hierbas">
+                    <input type="radio" name="filter" class="inputFilter" id="Hierbas">
+                    <span class="checkmark"></span>
+                    Hiebas</label>
+
+                <label for="Especias">
+                    <input type="radio" name="filter" class="inputFilter" id="Especias">
+                    <span class="checkmark"></span>
+                    Especias</label>
+
+                <label for="Granos">
+                    <input type="radio" name="filter" class="inputFilter" id="Granos">
+                    <span class="checkmark"></span>
+                    Granos</label>
+
+                <label for="Frutos secos">
+                    <input type="radio" name="filter" class="inputFilter" id="Frutos secos">
+                    <span class="checkmark"></span>
+                    Frutos secos</label>
+
+                <label for="Hortalizas">
+                    <input type="radio" name="filter" class="inputFilter" id="Hortalizas">
+                    <span class="checkmark"></span>
+                    Hortalizas</label>
+
+                <label for="Frutas">
+                    <input type="radio" name="filter" class="inputFilter" id="Frutas">
+                    <span class="checkmark"></span>
+                    Frutas</label>
+
+                <label for="Verduras">
+                    <input type="radio" name="filter" class="inputFilter" id="Verduras">
+                    <span class="checkmark"></span>
+                    Verduras</label>
+
+            </div>
+
+        </section>
+
+    </center>
+
+    <!-- Online Store -->
+
+    <section class="store">
+
+        <div class="product">
+
+            <img src="" alt="">
+
+            <div class="infoProd">
+                <p class="nameProd"></p>
+                <p class="priceProd"></p>
+                <p class="stockProd"></p>
+            </div>
+
+        </div>
+
+        <div class="product">
+
+            <img src="" alt="">
+
+            <div class="infoProd">
+                <p class="nameProd"></p>
+                <p class="priceProd"></p>
+                <p class="stockProd"></p>
+            </div>
+
+        </div>
+
+        <div class="product">
+
+            <img src="" alt="">
+
+            <div class="infoProd">
+                <p class="nameProd"></p>
+                <p class="priceProd"></p>
+                <p class="stockProd"></p>
+            </div>
+
+        </div>
+
+        <div class="product">
+
+            <img src="" alt="">
+
+            <div class="infoProd">
+                <p class="nameProd"></p>
+                <p class="priceProd"></p>
+                <p class="stockProd"></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <center>
+
+        <!-- Footer -->
+
+        <footer class="ftr-store">
+
+            <h5>®2021 HashtAG.</h5>
+
+        </footer>
+
+    </center>
+
+    <!-- Load stock -->
+    <!-- <script src="/alpha_nabo_contento/assets/js/load-stock.js"></script> -->
+
+</body>
+
+</html>

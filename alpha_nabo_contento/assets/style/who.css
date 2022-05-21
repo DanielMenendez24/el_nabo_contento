@@ -1,0 +1,71 @@
+/* Quienes somos */
+
+.who {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 60px 30px;
+    height: auto;
+}
+
+.infoWho {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    justify-content: center;
+    margin: 10px 0px 10px 10px;
+    height: 450px;
+    width: 430px;
+    background: #111;
+    border-radius: 10px;
+}
+
+.infoWho h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 34px;
+    font-weight: lighter;
+    color: rgb(0, 157, 154);
+    margin: 40px 0px 0px;
+}
+
+.infoWho p {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: #ccc;
+    margin: 50px 40px 10px 40px;
+}
+
+.who .img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: 30px 10px 30px -60px;
+    background-size: auto;
+}
+
+.who .img section {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.who .img section img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: .8s;
+}
+
+@supports(object-fit: cover) {
+    .who .img section img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.who .img:hover img {
+    transform: scale(1.03);
+}

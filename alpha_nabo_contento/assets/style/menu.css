@@ -1,0 +1,104 @@
+/* Menu */
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    background: rgb(250, 250, 250);
+    height: 45px;
+    width: 100%;
+    z-index: 100;
+    transition: .5s;
+}
+
+
+/* Shopping cart */
+
+.basket {
+    display: flex;
+    align-self: center;
+    height: 27px;
+    width: 27px;
+    padding: 2px;
+    position: absolute;
+    left: 5%;
+    transition: .2s;
+}
+
+.basket:hover {
+    transform: scale(1.25);
+}
+
+
+/* Buttons Menu */
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+
+.list a {
+    display: flex;
+    align-self: center;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #333;
+    transition: .17s;
+}
+
+.list a:hover {
+    border-bottom: 2px solid rgb(0, 255, 255);
+    color: #000;
+    transform: scale(1.1);
+}
+
+.list a:active {
+    color: rgb(255, 255, 0);
+}
+
+.list .yellow:hover {
+    border-bottom: 2px solid rgb(255, 255, 0);
+    color: #000;
+    transform: scale(1.1);
+}
+
+.list .yellow:active {
+    color: rgb(0, 255, 255);
+}
+
+
+/* Redes Sociales */
+
+.media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    height: auto;
+    width: 100px;
+    position: absolute;
+    right: 5%;
+}
+
+.media a img {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    transition: .3s;
+}
+
+.media a img:hover {
+    transform: scale(1.5);
+}
+
+.media s img:active {
+    transform: scale(2);
+}

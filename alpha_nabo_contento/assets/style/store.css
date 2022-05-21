@@ -1,0 +1,6 @@
+.store {
+    display: flex;
+    height: 1500px;
+    width: 70%;
+    border: 1px solid #333;
+}

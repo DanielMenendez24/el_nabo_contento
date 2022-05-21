@@ -1,0 +1,112 @@
+/* Redes sociales */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 220px;
+    padding: 10px 0px 0px 0px;
+}
+
+.form h3 {
+    display: block;
+    margin: 10px;
+    font-size: 22px;
+    font-family: 'Poiret One', sans;
+    font-weight: 600;
+    color: black;
+}
+
+#emailForm {
+    width: 350px;
+    height: 25px;
+    font-family: 'Poiret One';
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#emailForm:hover {
+    border: 1px solid #0ff;
+}
+
+.btnForm {
+    size: 60;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #333;
+    background-color: white;
+    color: #222;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btnForm:hover {
+    border: 1px solid #0ff;
+}
+
+.btnForm:active {
+    color: white;
+    background-color: black;
+}
+
+.form section h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+}
+
+.net {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.net .wpp {
+    transition: .3s;
+}
+
+.net .wpp:hover {
+    transform: scale(1.1);
+}
+
+.net .wpp a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #222;
+}
+
+.net .wpp a img {
+    width: 20px;
+    margin: 0px 5px;
+}
+
+.net .wpp a h5 {
+    display: flex;
+}
+
+.social {
+    display: flex;
+    width: 100px;
+}
+
+.social a img {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    transition: .3s;
+}
+
+.social a img:hover {
+    transform: scale(1.5);
+}
+
+.social a img:active {
+    transform: scale(2);
+}

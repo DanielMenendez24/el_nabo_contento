@@ -1,0 +1,56 @@
+/* Intro */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.intro img {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    height: 50%;
+    opacity: 80%;
+}
+
+.intro h1 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: static;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px gray;
+    color: #122;
+}
+
+.intro p {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: static;
+    font-family: 'Kaushan Script';
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px gray;
+    color: #121;
+}
+
+
+/* Loader */
+
+.intro .loader .ldbar {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    width: 80px;
+    height: 80px;
+}
